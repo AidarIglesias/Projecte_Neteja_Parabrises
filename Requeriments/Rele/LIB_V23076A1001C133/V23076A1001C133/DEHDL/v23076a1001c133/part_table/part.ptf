@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'V23076A1001C133'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "V23076A1001C133" (!) = "", "V23076A1001C133", "Other", "571-V23076A1001C133", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23076A1001C133?qs=CUfic%2FGsH5A8P1ALtscaeA%3D%3D", "V23076A1001C133", "https://www.arrow.com/en/products/v23076a1001c133/te-connectivity", "Automotive Relays", "https://componentsearchengine.com/Datasheets/2/V23076A1001C133.pdf", "21.5 mm"
+END_PART
+
+END.

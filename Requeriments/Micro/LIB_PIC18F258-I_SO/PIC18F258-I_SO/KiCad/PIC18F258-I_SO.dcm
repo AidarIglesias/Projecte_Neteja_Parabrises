@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PIC18F258-I_SO
+D Microcontroller,PIC18F258-I/SO 40MHz
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-681538.pdf
+$ENDCMP
+#
+#End Doc Library

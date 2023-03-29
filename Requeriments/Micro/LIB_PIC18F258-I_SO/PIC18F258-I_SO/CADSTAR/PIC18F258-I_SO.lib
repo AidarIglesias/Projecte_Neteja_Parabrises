@@ -1,0 +1,18 @@
+.PIC18F258-I_SO :1 ;Microcontroller,PIC18F258-I/SO 40MHz
+SOIC127P1034X264-28N
+*STM IC
+*NGS
+*PLB 1="'MCLR'/VPP" 2="RA0/AN0/CVREF" 3="RA1/AN1" 4="RA2/AN2/VREF-" 5="RA3/AN3/VREF+" 6="RA4/T0CKI" 7="RA5/AN4/'SS'/LVDIN" 8="VSS_1" 9="OSC1/CLKI" 10="OSC2/CLKO/RA6" 11="RC0/T1OSO/T1CKI" 12="RC1/T1OSI" 13="RC2/CCP1" 14="RC3/SCK/SCL" 15="RC4/SDI/SDA" 16="RC5/SDO" 17="RC6/TX/CK" 18="RC7/RX/DT" 19="VSS_2" 20="VDD" 21="RB0/INT0" 22="RB1/INT1" 23="RB2/CANTX/INT2" 24="RB3/CANRX" 25="RB4" 26="RB5/PGM" 27="RB6/PGC" 28="RB7/PGD"
+*MXP 28
+*DFN PIC18F258-I_SO
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (PIC18F258-I/SO)
+~!Mouser Part Number (579-PIC18F258-I/SO)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/PIC18F258-I-SO?qs=uMUszenkLLJD5g8PY%252BN5ow%3D%3D)
+~!Arrow Part Number (PIC18F258-I/SO)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pic18f258-iso/microchip-technology)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-681538.pdf)
+~!Height (2.64mm)
+~!3D_Model (PIC18F258-I_SO)
+PIC18F258-I_SO
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

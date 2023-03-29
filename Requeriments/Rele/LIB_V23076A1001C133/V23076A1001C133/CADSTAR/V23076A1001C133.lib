@@ -1,0 +1,19 @@
+.V23076A1001C133 :1 ;Automotive Relays
+V23076A1001C133
+*STM K
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=A4 7=B4
+*PLB 1="COIL_1" 2="COIL_2" 3="NC" 4="COM_1" 5="NO" 6="COM_2" 7="COM_3"
+*MXP 7
+*DFN V23076A1001C133
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (V23076A1001C133)
+~!Mouser Part Number (571-V23076A1001C133)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/V23076A1001C133?qs=CUfic%2FGsH5A8P1ALtscaeA%3D%3D)
+~!Arrow Part Number (V23076A1001C133)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/v23076a1001c133/te-connectivity)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/V23076A1001C133.pdf)
+~!Height (21.5mm)
+~!3D_Model (V23076A1001C133)
+V23076A1001C133
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

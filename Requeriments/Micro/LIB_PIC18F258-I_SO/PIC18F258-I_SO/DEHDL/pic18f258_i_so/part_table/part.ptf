@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PIC18F258_I_SO'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "PIC18F258-I/SO" (!) = "", "SOIC127P1034X264-28N", "Small Outline Packages", "579-PIC18F258-I/SO", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/PIC18F258-I-SO?qs=uMUszenkLLJD5g8PY%252BN5ow%3D%3D", "PIC18F258-I/SO", "https://www.arrow.com/en/products/pic18f258-iso/microchip-technology", "Microcontroller,PIC18F258-I/SO 40MHz", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-35/DSA-681538.pdf", "2.64 mm"
+END_PART
+
+END.
