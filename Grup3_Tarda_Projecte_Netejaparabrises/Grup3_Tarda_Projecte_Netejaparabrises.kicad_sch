@@ -1,0 +1,135 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7ae78f34-680b-4fd9-8391-ce3e1c73c4b5)
+
+  (paper "A4")
+
+  (title_block
+    (title "Projecte Netejaparabrises - Grup 3 Tarda")
+    (date "2023-03-30")
+    (rev "v1.0.30032023")
+  )
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 285.75 100.33) (xy 285.75 123.19))
+    (stroke (width 0) (type default))
+    (uuid 4ef56b9c-8120-4b62-8ee3-ed408259a420)
+  )
+
+  (polyline (pts (xy 285.75 43.18) (xy 285.75 48.26))
+    (stroke (width 0) (type default))
+    (uuid dff304df-89da-4551-b2ce-27e2dee4cf48)
+  )
+
+  (sheet (at 15.494 92.456) (size 78.486 51.816) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1911e221-32e7-4aa1-805e-6cbecb9cf221)
+    (property "Sheetname" "Sensor Pluja" (at 15.494 91.7444 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensor_Pluja.kicad_sch" (at 15.494 144.8566 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 98.806 16.256) (size 146.05 68.834) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 41ec4c6b-5222-4808-bf2f-f72f20229182)
+    (property "Sheetname" "Microcontrolador" (at 98.806 15.5444 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontrolador.kicad_sch" (at 98.806 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 153.416 92.202) (size 125.984 52.578) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6bb09854-f5c4-47db-85a6-f840b399c3ae)
+    (property "Sheetname" "Potencia" (at 153.416 91.4904 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Potencia.kicad_sch" (at 153.416 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 153.416 92.202 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 98.552 92.202) (size 50.8 52.578) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 923834a1-63e2-4643-8543-24423a71b442)
+    (property "Sheetname" "Botonera" (at 98.552 91.4904 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Botonera.kicad_sch" (at 98.552 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 252.222 16.002) (size 27.178 69.088) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid af3b1f4b-0ddd-4fcb-98cb-f1ef3526279f)
+    (property "Sheetname" "Comunicacions" (at 252.222 15.2904 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Comunicacions.kicad_sch" (at 252.222 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 15.24 15.748) (size 78.74 68.58) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid de573664-441d-44bf-8893-2d2e822d4a99)
+    (property "Sheetname" "Alimentacio" (at 15.24 15.0364 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Alimentacio.kicad_sch" (at 15.24 84.9126 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Grup3_Tarda_Projecte_Netejaparabrises"
+        (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
