@@ -1,6 +1,34 @@
 Circuit: * C:\Users\DaveW\Desktop\Universitat\GITHUB\Design-Tools\Projecte\Projecte_Neteja_Parabrises\Simulacions\Regulador\Regulador.asc
 
-Direct Newton iteration for .op point succeeded.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.333333
+Gmin = 0.84458
+vernier = 0.444444
+Gmin = 0.325873
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 0.0691694
+vernier = 1
+Gmin = 0.00809209
+Gmin = 0.000868881
+Gmin = 9.32954e-005
+Gmin = 1.00175e-005
+Gmin = 1.07562e-006
+Gmin = 1.15494e-007
+Gmin = 1.24011e-008
+Gmin = 1.33156e-009
+Gmin = 1.42975e-010
+Gmin = 1.53518e-011
+Gmin = 1.64839e-012
+Gmin = 1.76994e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
 .step v=9
 .step v=10
 .step v=11
@@ -10,13 +38,13 @@ Direct Newton iteration for .op point succeeded.
 .step v=15
 .step v=16
 
-Date: Thu Mar 30 13:54:22 2023
-Total elapsed time: 0.297 seconds.
+Date: Thu Mar 30 15:40:06 2023
+Total elapsed time: 0.662 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2112
+totiter = 3042
 traniter = 2088
 tranpoints = 1045
 accept = 1045
@@ -24,6 +52,6 @@ rejected = 0
 matrix size = 10
 fillins = 1
 solver = Normal
-Matrix Compiler1:      44 opcodes  0.1/[0.1]/0.1
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Matrix Compiler1:      44 opcodes  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.3/0.2
 

@@ -1,0 +1,16 @@
+* C:\Users\DaveW\Desktop\Universitat\GITHUB\Design-Tools\Projecte\Projecte_Neteja_Parabrises\Simulacions\Regulador\Regulador.asc
+VBAT VBAT 0 {V}
+C1 N001 0 1µ
+C2 N001 0 100n
+C3 VCC 0 100n
+C4 VCC 0 1µ
+D1 VBAT N001 1N914
+D2 0 N001 BZX84C15L
+XU1 0 VCC N001 LT1117-5
+.model D D
+.lib C:\Users\DaveW\Documents\LTspiceXVII\lib\cmp\standard.dio
+.step param V list 9 10 11 12 13 14 15 16
+.tran 1s
+.lib LT1117.lib
+.backanno
+.end
