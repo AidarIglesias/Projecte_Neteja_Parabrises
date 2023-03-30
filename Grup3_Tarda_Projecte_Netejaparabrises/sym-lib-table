@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIC18F258-I_SO")(type "KiCad")(uri "/usr/share/kicad/symbols//PIC18F258-I_SO.kicad_sym")(options "")(descr ""))
+  (lib (name "ABLS2-16.000MHZ-D4Y-T")(type "KiCad")(uri "/usr/share/kicad/symbols//ABLS2-16.000MHZ-D4Y-T.kicad_sym")(options "")(descr ""))
+)
