@@ -1,0 +1,29 @@
+Circuit: * C:\Users\DaveW\Desktop\Universitat\GITHUB\Design-Tools\Projecte\Projecte_Neteja_Parabrises\Simulacions\Regulador\Regulador.asc
+
+Direct Newton iteration for .op point succeeded.
+.step v=9
+.step v=10
+.step v=11
+.step v=12
+.step v=13
+.step v=14
+.step v=15
+.step v=16
+
+Date: Thu Mar 30 13:54:22 2023
+Total elapsed time: 0.297 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2112
+traniter = 2088
+tranpoints = 1045
+accept = 1045
+rejected = 0
+matrix size = 10
+fillins = 1
+solver = Normal
+Matrix Compiler1:      44 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
