@@ -1,5 +1,5 @@
 
-(footprint XTAL_ABLS2-8.000MHZ-D4Y-T (layer F.Cu) (tedit 6423262B)
+(footprint XTAL_ABLS2-8.000MHZ-D4Y-T (layer F.Cu) (tedit 64255411)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -5.768 -3.2564 0) (layer F.SilkS)

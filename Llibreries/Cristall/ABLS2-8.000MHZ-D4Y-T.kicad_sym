@@ -16,10 +16,10 @@
     (property "MAXIMUM_PACKAGE_HEIGHT" "3.3 mm" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "PARTREV" "11.15.2016" (id 6) (at 0 0 0)
+    (property "MANUFACTURER" "Abracon" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MANUFACTURER" "Abracon" (id 7) (at 0 0 0)
+    (property "PARTREV" "11.15.2016" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (symbol "ABLS2-8.000MHZ-D4Y-T_0_0"
