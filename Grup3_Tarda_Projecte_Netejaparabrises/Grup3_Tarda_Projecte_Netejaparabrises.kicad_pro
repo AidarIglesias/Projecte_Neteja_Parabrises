@@ -343,7 +343,196 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Alimentacio/V_{in}"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+VCC"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Alimentacio/V_{div}"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Microcontrolador/Vledr"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vledb"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGM"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGC"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vsw"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "XTAL1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "XTAL2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PROG_MCLR"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "MCLR"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "RX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "TX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Vio"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "TXD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "STB"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "RXD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Comunicacions/TXD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Comunicacions/RXD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "CANTX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "CANRX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Comunicacions/CANH"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Comunicacions/CANL"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "S+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "S-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "Vsens"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Sensor Pluja/Vin+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Sensor Pluja/Vthres"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Sensor Pluja/Vthold"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Comp_o"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Vb2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Vb3"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Vb4"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Vb1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "Driver1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "DriverM1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "DriverM2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vc"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vd1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vb"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Ve"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
