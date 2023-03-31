@@ -17,20 +17,20 @@ El projecte estara dividit en 7 parts:
 ----  
 
 ### Caracteristiques i epecificacions  
-El sistema de neteja-parabrises te com a caracteristica principal, com ja diu el seu nom, netejar la lluna del parabrises. En el nostre cas, estara dissenyat per tal de netejar tant la lluna davantera, com la del darrere. Com que aquest sistema sera part d'un conjunt de ECUs (Electronic Control Unit) d'un automobil, hi ha un serie d'elements que tots ells tindran en comu:  
+El sistema de neteja-parabrises te com a caracteristica principal, com ja diu el seu nom, netejar la lluna del parabrises. Com que aquest sistema sera part d'un conjunt de ECUs (Electronic Control Unit) d'un automobil, hi ha un serie d'elements que tots ells tindran en comu:  
 
 * Una etapa de regulacio de tensio (es fara servir [LM1117-5.0])
-* Un microcontrolador (es fara servir un [PIC18F2580] de 28 pins) encarregat del control del nostre mòdul i de la comunicació amb els altres
+* Un microcontrolador (es fara servir un [PIC18F2580] de 28 pins) encarregat del control del nostre modul i de la comunicacio amb els altres
 * Un bus de programacio i debug del microcontrolador
 * Un bus [CAN] que permet la comunicacio sincrona amb els altres moduls
 * Un bus [I2C] (o be [SPI]) per a la comunicacio sincrona interna del nostre modul
 * Un bus de comunicacio [USART] que permet monitoritzar el sistema des d'un ordinador extern
 * Una botonera per permetre la interaccio entre l'usuari i el modul
 
-El sistema ha de complir les següents **especificacions**:  
+El sistema ha de complir les seguents **especificacions**:  
 
 * Dos motors amb el seu final de carrera
-* Dues bombes de líquid neteja-parabrises
+* Dues bombes de liquid neteja-parabrises
 * Sensor digital de pluja
 * Calefactor del vidre
 
@@ -42,11 +42,11 @@ El sistema al complet estara controlat per el microcontrolador. Per al moviment 
 
 El sistema tambe inclou dues bombes de liquid neteja-parabrises, cadascuna d'elles controlada per un driver i un rele. Aquestes s'activaran quan el conductor ho desitgi i funcionaran de la mateixa manera que el neteja-parabrises: mitjançant un motor.  
 
-Hi haura un mode de neteja automatic, accionat per un sensor digital de pluja. Quan es detecti pluja, el neteja-parabrises es posarà en funcionament a velocitat 1.  
+Hi haura un mode de neteja automatic, accionat per un sensor digital de pluja. Quan es detecti pluja, el neteja-parabrises es posara en funcionament a velocitat 1.  
 
 Hi ha (tres)? modes d'operacio:
 * Velocitat 1 (Velocitat per defecte)
-* Velocitat 2 (Velocitat més alta)
+* Velocitat 2 (Velocitat mes alta)
 * Automatic 3 (El sensor de pluja activa el neteja-parabrises i el fa funcionar a velocitat 1 per defecte)  
 
 A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activar les bombes de liquid manualment. Addicionalment, pot fer que les escombretes fagin una sola passada, tambe amb activacio manual.  
@@ -59,7 +59,10 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 **Figura 1.** Versio 1 del diagrama de blocs - 24.03.2023.  
 
 ![Diagrama 2](NetejaParabrises_DiagramaDeBlocs.drawio.png)  
-**Figura 2.** Versio 2 del diagrama de blocs - 30.03.2023.
+**Figura 2.** Versio 2 del diagrama de blocs - 30.03.2023.  
+
+![Diagrama 3]()  
+**Figura 3.** Versio 3 del diagrama de blocs - 31.03.2023.
 
 ----  
 
@@ -77,16 +80,19 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | LM393 | Comparator with lower offset voltage, higher supply voltage capability, lower supply current, lower input bias current, lower propagation delay, and improved 2 kV ESD performance and input ruggedness through dedicated ESD clamps. Comparador que farem servir a l'hora de detectar si plou o no. | [LM393] |  
 | 3362-¼” Square Trimpot | Trimming Potentiometer. Withstands harsh environments and immersion cleaning processes. Potenciometre que usarem per adjustar el llindar del sensor de pluja. | [3362-¼” Square Trimpot]  
 | Flexible Heaters 78000 Series | Truly transparent, no wires in clear view area, optical grade, thin-film polyester, low power consumption for use with battery or line power. Tires conductores que tenen com a objectiu escalfar la lluna del darrere de l'automobil. | [Flexible Heaters 78000 Series] |  
-| WLD4383 | Motor reductor _sinfín_ 12VDC, corrent nominal de 2A, velocitat nominal de 44rmp i una potencia de 12.5W. | [WLD4383]  
-| EHDB9MF | Connector DB-9 de entrada-sortida de la comunicació CAN. | [EHDB9MF] |  
+| WLD4383 | Motor reductor _sinfin_ 12VDC, corrent nominal de 2A, velocitat nominal de 44rmp i una potencia de 12.5W. | [WLD4383]  
+| EHDB9MF | Connector DB-9 de entrada-sortida de la comunicacio CAN. | [EHDB9MF] |  
 
 ----
 #### Historial de canvis  
 
 | Data | Autor | Descripcio |  
 | ---- | ----- | ---------- |  
-| ... | ... | ... |  
-
+| 23.03.2023 | David Miravent | Tramesa de la tasca per a la primera versio de la presentacio. |  
+| 27.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Diagrama de blocs: Eliminat el sensor de temp., eliminats els busos i transceivers CAN que estaven connectats entre els sensors + els que connectaven el µC amb els motors, modificada la botonera, afegit el nou bus CAN, modificat el connector de programacio i debug, modificats els drivers i els components de potencia, modificat l'oscil·lador, afegit el driver del sensor de pluja, afegits els consums individuals de cada component, inclosos els pins de les connexions µC-periferics. |  
+| 28.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Presentacio: Actualitzada la llista de components (diap. 5, 6), inclosos els parametres d'interes per a cada component (diap. 8 - 18), actualitzat el diagrama de blocs (diap. 19). |  
+| 30.03.2023 | Biel Hornas, David Miravent | Realitzacio simulacions regulador de tensio + sensor de pluja, modificat el esquematic (sch) del projecte : s'han afegit totes les etapes del sistema en estructura de fulles jerarquiques. |  
+| 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs, corregit el valor de consum del µC, modificat el connector de la botonera |  
 
 
 
