@@ -466,35 +466,35 @@
       },
       {
         "netclass": "ANG",
-        "pattern": "/Sensor Pluja/Vin+"
+        "pattern": ""
       },
       {
         "netclass": "ANG",
-        "pattern": "/Sensor Pluja/Vthres"
+        "pattern": "/Sensor Pluja/Vsensor"
       },
       {
         "netclass": "ANG",
-        "pattern": "/Sensor Pluja/Vthold"
+        "pattern": "/Sensor Pluja/Vsensibilitat"
       },
       {
         "netclass": "DIG",
-        "pattern": "Comp_o"
+        "pattern": "Sensordig_o"
       },
       {
         "netclass": "DIG",
-        "pattern": "Vb2"
+        "pattern": "Vboto2"
       },
       {
         "netclass": "DIG",
-        "pattern": "Vb3"
+        "pattern": "Vboto3"
       },
       {
         "netclass": "DIG",
-        "pattern": "Vb4"
+        "pattern": "Vboto4"
       },
       {
         "netclass": "DIG",
-        "pattern": "Vb1"
+        "pattern": "Vboto1"
       },
       {
         "netclass": "DIG",
@@ -509,28 +509,48 @@
         "pattern": "DriverM2"
       },
       {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vc"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vd1"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vb"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Ve"
+        "netclass": "PWR",
+        "pattern": "/Potencia/Vc_m1+"
       },
       {
         "netclass": "PWR",
-        "pattern": "VMOT+"
+        "pattern": "/Potencia/Ve_m1+"
       },
       {
         "netclass": "PWR",
-        "pattern": "VMOT-"
+        "pattern": "/Potencia/Vb_m1+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Potencia/Vc_m1+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT1+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT1-"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBOMBA1"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VBOMBA2"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VLUNETA"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT2+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VMOT2-"
       }
     ]
   },
