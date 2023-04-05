@@ -606,27 +606,19 @@
     ],
     [
       "de573664-441d-44bf-8893-2d2e822d4a99",
-      "Alimentacio"
+      "Potencia"
     ],
     [
       "41ec4c6b-5222-4808-bf2f-f72f20229182",
       "Microcontrolador"
     ],
     [
-      "af3b1f4b-0ddd-4fcb-98cb-f1ef3526279f",
-      "Comunicacions"
-    ],
-    [
       "1911e221-32e7-4aa1-805e-6cbecb9cf221",
-      "Sensor Pluja"
-    ],
-    [
-      "923834a1-63e2-4643-8543-24423a71b442",
-      "Botonera"
+      "Analog"
     ],
     [
       "6bb09854-f5c4-47db-85a6-f840b399c3ae",
-      "Potencia"
+      "Control i Alimentacio"
     ]
   ],
   "text_variables": {}

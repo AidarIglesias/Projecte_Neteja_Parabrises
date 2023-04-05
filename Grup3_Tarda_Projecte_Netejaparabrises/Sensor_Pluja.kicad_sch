@@ -523,7 +523,7 @@
     (effects (font (size 3 3) bold) (justify left bottom))
     (uuid b1dc8b80-1223-49f1-96f0-500a56135ebe)
   )
-  (text "SENSOR PLUJA" (at 114.3 59.69 0)
+  (text "ANALOG" (at 128.016 56.896 0)
     (effects (font (size 5 5) bold) (justify left bottom))
     (uuid d2b4aa18-91ac-48b0-96c6-f1c6db148fd1)
   )
