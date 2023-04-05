@@ -280,7 +280,7 @@
         "microvia_drill": 0.1,
         "name": "ANG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(35, 211, 51)",
+        "schematic_color": "rgb(38, 172, 33)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -361,18 +361,6 @@
         "pattern": "+VCC"
       },
       {
-        "netclass": "ANG",
-        "pattern": "/Alimentacio/V_{div}"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Microcontrolador/Vledr"
-      },
-      {
-        "netclass": "DIG",
-        "pattern": "/Microcontrolador/Vledb"
-      },
-      {
         "netclass": "DIG",
         "pattern": "PGM"
       },
@@ -430,14 +418,6 @@
       },
       {
         "netclass": "DIG",
-        "pattern": "/Comunicacions/TXD"
-      },
-      {
-        "netclass": "DIG",
-        "pattern": "/Comunicacions/RXD"
-      },
-      {
-        "netclass": "DIG",
         "pattern": "CANTX"
       },
       {
@@ -451,22 +431,6 @@
       {
         "netclass": "DIG",
         "pattern": "/Comunicacions/CANL"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "S+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "S-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "Vsens"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": ""
       },
       {
         "netclass": "ANG",
@@ -510,22 +474,6 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "/Potencia/Vc_m1+"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/Potencia/Ve_m1+"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/Potencia/Vb_m1+"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/Potencia/Vc_m1+"
-      },
-      {
-        "netclass": "PWR",
         "pattern": "VMOT1+"
       },
       {
@@ -551,6 +499,174 @@
       {
         "netclass": "PWR",
         "pattern": "VMOT2-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/V_{in}"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vled"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/PROG_MCLR"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/MCLR"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Tx"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Rx"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/CANRX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/CANTX"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/CANL"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/CANH"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Analog/Vsensor"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Analog/Vsensibilitat"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Microcontrolador/XTAL1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Microcontrolador/XTAL2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vboto1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vboto2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vboto3"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Microcontrolador/Vboto4"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_m1+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_m1+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_m1+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_m1-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_m1-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_m1-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_m2+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_m2+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_m2+"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_m2-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_m2-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_m2-"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_b1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_b1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_b1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_b2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_b2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_b2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vb_lu"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Vc_lu"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Control i Alimentacio/Ve_lu"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "DriverLuneta"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "DriverB1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "DriverB2"
       }
     ]
   },

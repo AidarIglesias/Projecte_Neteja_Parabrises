@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projecte Netejaparabrises - Grup 4 Tarda")
-    (date "2023-03-30")
-    (rev "v1.0.30032023")
+    (date "2023-04-05")
+    (rev "v1.1.05042023")
   )
 
   (lib_symbols
@@ -56,6 +56,10 @@
   (text "DIGITAL" (at 104.394 52.07 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 68beb317-03e7-4727-8dd8-ddf7e40a24de)
+  )
+  (text "SISTEMA DE NETEJAPARABRISES" (at 29.21 177.292 0)
+    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (uuid 7b655d65-919a-4d58-b244-e6d6a16feb6b)
   )
   (text "ANALOG" (at 17.526 111.252 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
