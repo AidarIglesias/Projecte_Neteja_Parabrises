@@ -8,4 +8,5 @@
   (lib (name "BC817-25_RF")(type "KiCad")(uri "/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/BJT/BC817-25_RF.kicad_sym")(options "")(descr ""))
   (lib (name "ABLS2-8.000MHZ-D4Y-T")(type "KiCad")(uri "/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Cristall/ABLS2-8.000MHZ-D4Y-T.kicad_sym")(options "")(descr ""))
   (lib (name "3362P-1-103")(type "KiCad")(uri "/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Potenciometre/3362P-1-103.kicad_sym")(options "")(descr ""))
+  (lib (name "L78S05CV")(type "KiCad")(uri "/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Regulador/L78S05CV.kicad_sym")(options "")(descr ""))
 )
