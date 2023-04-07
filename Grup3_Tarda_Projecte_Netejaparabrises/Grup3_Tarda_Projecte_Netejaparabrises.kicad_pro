@@ -651,54 +651,6 @@
       },
       {
         "netclass": "ANG",
-        "pattern": "/Potencia/Vc_m1+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vb_m1+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Ve_m1+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vb_m1-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vc_m1-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Ve_m1-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vb_m2+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vc_m2+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Ve_m2+"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vb_m2-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Vc_m2-"
-      },
-      {
-        "netclass": "ANG",
-        "pattern": "/Potencia/Ve_m2-"
-      },
-      {
-        "netclass": "ANG",
         "pattern": "/Potencia/Vb_b1"
       },
       {
@@ -732,6 +684,62 @@
       {
         "netclass": "ANG",
         "pattern": "/Potencia/Vc_lu"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vb_EN1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Ve_EN1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vc_EN1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vb_EN2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vc_EN2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Ve_EN2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vb_m1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vc_m1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Ve_m1"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vb_m2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Ve_m2"
+      },
+      {
+        "netclass": "ANG",
+        "pattern": "/Potencia/Vc_m2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "EnableM2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "EnableM1"
       }
     ]
   },
