@@ -494,10 +494,6 @@
         "pattern": "VBAT"
       },
       {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
         "netclass": "PWR",
         "pattern": "/Alimentacio/V_{in}"
       },
@@ -740,6 +736,18 @@
       {
         "netclass": "DIG",
         "pattern": "EnableM1"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "GNDCLK"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GNDPWR"
       }
     ]
   },
