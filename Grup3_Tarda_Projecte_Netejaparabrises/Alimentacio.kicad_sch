@@ -1329,7 +1329,7 @@
     (property "Reference" "#PWR0101" (at 124.46 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND2" (at 124.46 138.43 0)
+    (property "Value" "GND" (at 124.46 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 124.46 133.35 0)

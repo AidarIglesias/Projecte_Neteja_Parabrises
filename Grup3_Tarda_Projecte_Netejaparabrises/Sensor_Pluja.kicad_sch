@@ -586,10 +586,10 @@
   (symbol (lib_id "Device:R") (at 119.38 110.998 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26f4f2f2-9c59-4a08-b2ee-0aaa96e030db)
-    (property "Reference" "R2" (at 121.666 110.363 0)
+    (property "Reference" "RSens" (at 121.666 110.363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (at 121.666 112.903 0)
+    (property "Value" "1k" (at 121.666 112.903 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 117.602 110.998 90)
@@ -603,7 +603,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "R2") (unit 1)
+          (reference "RSens") (unit 1)
         )
       )
     )
@@ -612,10 +612,10 @@
   (symbol (lib_id "Device:R_Potentiometer_Trim") (at 110.744 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68e023bb-211f-4697-9b45-144640c64a3b)
-    (property "Reference" "RV1" (at 108.712 106.045 0)
+    (property "Reference" "RPOT" (at 107.95 106.045 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10k" (at 108.712 108.585 0)
+    (property "Value" "10k" (at 107.95 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (at 110.744 106.68 0)
@@ -630,7 +630,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "RV1") (unit 1)
+          (reference "RPOT") (unit 1)
         )
       )
     )
@@ -639,7 +639,7 @@
   (symbol (lib_id "Device:C") (at 176.53 103.632 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93c7da45-afed-4082-afa2-f7d8c1d4e611)
-    (property "Reference" "C1" (at 180.086 102.997 0)
+    (property "Reference" "CDesOpam" (at 171.45 101.473 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 180.086 105.537 0)
@@ -656,7 +656,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "C1") (unit 1)
+          (reference "CDesOpam") (unit 1)
         )
       )
     )
@@ -700,7 +700,7 @@
     (property "Reference" "#PWR015" (at 186.182 117.856 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND2" (at 189.23 113.411 0)
+    (property "Value" "GND" (at 189.23 113.411 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 186.182 111.506 0)
@@ -757,7 +757,7 @@
     (property "Reference" "#PWR016" (at 115.062 122.174 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND2" (at 118.11 117.729 0)
+    (property "Value" "GND" (at 118.11 117.729 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 115.062 115.824 0)
