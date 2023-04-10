@@ -77,4 +77,27 @@
 
   (net 0 "")
 
+  (gr_rect (start 28.1 26.52) (end 271.97 157.26)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 180741ec-f603-4d94-82d8-e9ea210b7f0d))
+  (gr_text_box "Analogic"
+    (start 28.1 66.34) (end 102.75 91.8) (layer "F.Cu") (tstamp 729a33eb-ac7d-406a-a1da-a5fa204df39c)
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
+    (stroke (width 0.2) (type solid))  )
+  (gr_text_box "POWER"
+    (start 203.25 66.15) (end 271.97 157.26) (layer "F.Cu") (tstamp 75485c29-a169-4cb5-a717-40d31cf7117b)
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
+    (stroke (width 0.2) (type solid))  )
+  (gr_text_box "POWER"
+    (start 28.1 26.52) (end 272.16 66.34) (layer "F.Cu") (tstamp ad664607-b7de-4825-bb0f-8eb0ba21f033)
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
+    (stroke (width 0.2) (type solid))  )
+  (gr_text_box "Botonera"
+    (start 28.1 91.89) (end 47.82 157.26) (layer "F.Cu") (tstamp b883899c-3491-4465-97e4-def0feb0e316)
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
+    (stroke (width 0.2) (type solid))  )
+  (gr_text_box "Digital"
+    (start 47.82 91.89) (end 203.25 157.26) (layer "F.Cu") (tstamp fd335029-7560-4a90-8a10-84ae2ac2abfd)
+      (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left top))
+    (stroke (width 0.2) (type solid))  )
+
 )

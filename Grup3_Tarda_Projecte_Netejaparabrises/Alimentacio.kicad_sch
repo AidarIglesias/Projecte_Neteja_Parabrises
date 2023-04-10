@@ -1171,7 +1171,7 @@
           (reference "C4") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1209,7 +1209,7 @@
           (reference "#PWR0101") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1301,7 +1301,7 @@
   (symbol (lib_id "power:GNDPWR") (at 69.85 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 658125e2-a33c-4797-8088-43ecfb0c0687)
-    (property "Reference" "#PWR025" (at 69.85 137.16 0)
+    (property "Reference" "#PWR01" (at 69.85 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 69.723 137.16 0)
@@ -1317,7 +1317,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1350,7 +1350,7 @@
           (reference "#PWR0101") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1390,7 +1390,7 @@
   (symbol (lib_id "power:GNDPWR") (at 147.701 86.868 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80eb2b89-d7c5-4be4-b61a-46dbb5c0ebf4)
-    (property "Reference" "#PWR01" (at 147.701 91.948 0)
+    (property "Reference" "#PWR04" (at 147.701 91.948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 147.574 91.948 0)
@@ -1406,7 +1406,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1440,7 +1440,7 @@
           (reference "D1") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1527,7 +1527,7 @@
           (reference "J1") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1566,7 +1566,7 @@
           (reference "C1") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1631,7 +1631,7 @@
           (reference "C2") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1645,7 +1645,7 @@
   (symbol (lib_id "Device:R") (at 157.988 77.978 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1ffbe41-5676-42e7-8e95-10fcc504b90e)
-    (property "Reference" "R6" (at 160.02 77.343 0)
+    (property "Reference" "R1" (at 160.02 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220" (at 160.02 79.883 0)
@@ -1662,7 +1662,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "R6") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1696,7 +1696,7 @@
           (reference "C5") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1710,7 +1710,7 @@
   (symbol (lib_id "power:GNDPWR") (at 80.772 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f34c2a46-6503-4608-be3b-b0d1032e20b5)
-    (property "Reference" "#PWR03" (at 80.772 71.755 0)
+    (property "Reference" "#PWR02" (at 80.772 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDPWR" (at 80.645 71.755 0)
@@ -1726,7 +1726,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
           (reference "D2") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "AidarIglesias_DavidMiravent_P3"
@@ -1774,7 +1774,7 @@
   (symbol (lib_id "Device:LED") (at 157.988 68.326 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbe9e55d-a461-41de-adaa-9f2c5b1acc71)
-    (property "Reference" "D8" (at 161.29 69.2785 90)
+    (property "Reference" "D3" (at 161.29 69.2785 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (at 161.29 71.8185 90)
@@ -1791,7 +1791,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/de573664-441d-44bf-8893-2d2e822d4a99"
-          (reference "D8") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )

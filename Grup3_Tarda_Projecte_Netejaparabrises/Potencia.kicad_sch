@@ -2024,7 +2024,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2052,7 +2052,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2080,7 +2080,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2108,7 +2108,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2117,7 +2117,7 @@
   (symbol (lib_id "BC817-25_RF:BC817-25_RF") (at 44.196 157.734 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17791b89-fc1d-4be0-8d2b-cfcda5ee8f9e)
-    (property "Reference" "Q5" (at 48.006 157.099 0)
+    (property "Reference" "Q1" (at 48.006 157.099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817-25_RF" (at 48.006 159.639 0)
@@ -2147,7 +2147,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "Q5") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2175,7 +2175,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -2242,7 +2242,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2251,7 +2251,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 102.616 73.152 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e79556e-6ef8-4ffd-bffa-2151f01f9ea7)
-    (property "Reference" "K1" (at 102.616 61.976 0)
+    (property "Reference" "K3" (at 102.616 61.976 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 102.616 64.516 0)
@@ -2277,7 +2277,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K1") (unit 1)
+          (reference "K3") (unit 1)
         )
       )
     )
@@ -2286,7 +2286,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 239.522 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 200ab9e6-e8ae-4e96-aaf0-e9d86496f3ec)
-    (property "Reference" "K3" (at 239.522 87.884 0)
+    (property "Reference" "K7" (at 239.522 87.884 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 239.522 90.424 0)
@@ -2312,7 +2312,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K3") (unit 1)
+          (reference "K7") (unit 1)
         )
       )
     )
@@ -2321,7 +2321,7 @@
   (symbol (lib_id "Diode:1N5400") (at 219.202 39.878 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27d93699-2aab-4afa-9973-f76f171591e8)
-    (property "Reference" "D10" (at 214.122 39.116 90)
+    (property "Reference" "D9" (at 214.122 39.116 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 209.55 41.148 90)
@@ -2344,7 +2344,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -2372,7 +2372,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -2400,7 +2400,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2489,7 +2489,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2498,7 +2498,7 @@
   (symbol (lib_id "Connector:Conn_01x10_Pin") (at 143.764 122.682 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c72caae-ac61-4da4-897f-6bdf4a44d9b9)
-    (property "Reference" "J4" (at 144.018 109.982 0)
+    (property "Reference" "J8" (at 144.018 109.982 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CONNECTOR ALIMENTACIO" (at 154.94 106.934 0)
@@ -2523,7 +2523,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "J4") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2532,7 +2532,7 @@
   (symbol (lib_id "Device:R") (at 41.402 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d7125b2-3a98-4294-850b-f9d97db26f8d)
-    (property "Reference" "R8" (at 36.83 94.488 0)
+    (property "Reference" "R7" (at 36.83 94.488 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 32.766 96.52 0)
@@ -2549,7 +2549,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2577,7 +2577,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2586,7 +2586,7 @@
   (symbol (lib_id "Device:R") (at 31.75 157.734 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4210639e-dae4-43e5-8233-d6debafe2d8c)
-    (property "Reference" "R19" (at 31.75 153.162 90)
+    (property "Reference" "R2" (at 31.75 153.162 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 31.75 155.702 90)
@@ -2603,7 +2603,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R19") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2612,7 +2612,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 67.31 140.716 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4903b9f2-4ef4-493d-8742-6dce35bb6e4f)
-    (property "Reference" "K4" (at 67.31 129.54 0)
+    (property "Reference" "K1" (at 67.31 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 67.31 132.08 0)
@@ -2638,7 +2638,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K4") (unit 1)
+          (reference "K1") (unit 1)
         )
       )
     )
@@ -2666,7 +2666,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2675,7 +2675,7 @@
   (symbol (lib_id "Device:R") (at 177.292 45.974 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d1efa34-8e28-4fa5-ac6d-6548f3555596)
-    (property "Reference" "R16" (at 177.292 41.402 90)
+    (property "Reference" "R14" (at 177.292 41.402 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 177.292 43.942 90)
@@ -2692,7 +2692,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R16") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2720,7 +2720,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2729,7 +2729,7 @@
   (symbol (lib_id "Device:R") (at 183.896 52.832 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6663e790-0ff1-4ef7-ab5c-b506fbf82bc6)
-    (property "Reference" "R17" (at 179.324 52.07 0)
+    (property "Reference" "R16" (at 179.324 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 175.26 54.102 0)
@@ -2746,7 +2746,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R17") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2755,7 +2755,7 @@
   (symbol (lib_id "BC817-25_RF:BC817-25_RF") (at 47.244 88.392 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cb8a366-43bb-46c7-b934-8d63978aa0d3)
-    (property "Reference" "Q1" (at 51.054 87.757 0)
+    (property "Reference" "Q3" (at 51.054 87.757 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817-25_RF" (at 51.054 90.297 0)
@@ -2785,7 +2785,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "Q1") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2813,7 +2813,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -2822,7 +2822,7 @@
   (symbol (lib_id "Device:R") (at 219.202 155.956 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70aacabc-1159-4bb4-bace-edbfc5466bfb)
-    (property "Reference" "R27" (at 221.234 155.321 0)
+    (property "Reference" "R22" (at 221.234 155.321 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 221.234 157.861 0)
@@ -2839,7 +2839,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R27") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -2848,7 +2848,7 @@
   (symbol (lib_id "Device:R") (at 210.82 149.606 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 719ae002-d4ed-4899-88ee-69a0b2c43444)
-    (property "Reference" "R26" (at 206.248 148.844 0)
+    (property "Reference" "R21" (at 206.248 148.844 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 202.184 150.876 0)
@@ -2865,7 +2865,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R26") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -2874,7 +2874,7 @@
   (symbol (lib_id "Diode:1N5400") (at 110.49 149.606 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 740e3b89-8492-418b-ac82-d729c0796dcf)
-    (property "Reference" "D6" (at 105.41 148.844 90)
+    (property "Reference" "D8" (at 105.41 148.844 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 100.838 150.876 90)
@@ -2897,7 +2897,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D6") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2906,7 +2906,7 @@
   (symbol (lib_id "BC817-25_RF:BC817-25_RF") (at 189.738 45.974 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74d61ce8-6e23-48ba-bc8c-eb6ebb1ee690)
-    (property "Reference" "Q4" (at 193.548 45.339 0)
+    (property "Reference" "Q5" (at 193.548 45.339 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817-25_RF" (at 193.548 47.879 0)
@@ -2936,7 +2936,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2945,7 +2945,7 @@
   (symbol (lib_id "Diode:1N5400") (at 82.042 42.672 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79be52a5-497a-4e99-bedb-08e0333b8fa5)
-    (property "Reference" "D9" (at 76.962 41.91 90)
+    (property "Reference" "D5" (at 76.962 41.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 72.39 43.942 90)
@@ -2968,7 +2968,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D9") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2977,7 +2977,7 @@
   (symbol (lib_id "Device:R") (at 38.354 164.592 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a6050f0-c8c9-4449-aa06-6ab42f649399)
-    (property "Reference" "R20" (at 33.782 163.83 0)
+    (property "Reference" "R5" (at 33.782 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 29.718 165.862 0)
@@ -2994,7 +2994,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R20") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3003,7 +3003,7 @@
   (symbol (lib_id "Diode:1N5400") (at 82.042 71.882 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c12a735-5485-4998-9114-470460acfd4e)
-    (property "Reference" "D1" (at 76.962 71.12 90)
+    (property "Reference" "D6" (at 76.962 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 72.39 73.152 90)
@@ -3026,7 +3026,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D1") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3054,7 +3054,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3063,7 +3063,7 @@
   (symbol (lib_id "Device:R") (at 41.402 52.832 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ff4e01c-2e64-4eee-8f94-994846278a68)
-    (property "Reference" "R11" (at 36.83 52.07 0)
+    (property "Reference" "R6" (at 36.83 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 32.766 54.102 0)
@@ -3080,7 +3080,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R11") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3089,7 +3089,7 @@
   (symbol (lib_id "Device:R") (at 177.292 89.154 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 829ce81a-09d2-4d33-b850-62581888cdf3)
-    (property "Reference" "R13" (at 177.292 84.582 90)
+    (property "Reference" "R15" (at 177.292 84.582 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 177.292 87.122 90)
@@ -3106,7 +3106,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R13") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3134,7 +3134,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3162,7 +3162,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3190,7 +3190,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "Diode:1N5400") (at 219.202 97.79 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e677ca3-dca5-4df9-9ab9-ad54be021c2c)
-    (property "Reference" "D4" (at 214.122 97.028 90)
+    (property "Reference" "D11" (at 214.122 97.028 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 209.55 99.06 90)
@@ -3222,7 +3222,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D4") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -3231,7 +3231,7 @@
   (symbol (lib_id "Device:R") (at 102.108 174.752 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0281f11-e9eb-4786-87a1-0f99d9b420bf)
-    (property "Reference" "R23" (at 97.536 173.99 0)
+    (property "Reference" "R12" (at 97.536 173.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 93.472 176.022 0)
@@ -3248,7 +3248,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R23") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -3257,7 +3257,7 @@
   (symbol (lib_id "Diode:1N5400") (at 46.736 139.446 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0e5f697-5959-436b-8cde-ce20ed996622)
-    (property "Reference" "D5" (at 41.656 138.684 90)
+    (property "Reference" "D4" (at 41.656 138.684 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 37.084 140.716 90)
@@ -3280,7 +3280,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3289,7 +3289,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 102.87 101.092 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a34525c8-f623-4e2b-b2b9-da357773ad99)
-    (property "Reference" "K8" (at 102.87 89.916 0)
+    (property "Reference" "K4" (at 102.87 89.916 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 102.87 92.456 0)
@@ -3315,7 +3315,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K8") (unit 1)
+          (reference "K4") (unit 1)
         )
       )
     )
@@ -3324,7 +3324,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 102.616 42.926 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4175b12-3bb8-4cdc-9bc9-4f2b080169d5)
-    (property "Reference" "K7" (at 102.616 31.75 0)
+    (property "Reference" "K2" (at 102.616 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 102.616 34.29 0)
@@ -3350,7 +3350,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K7") (unit 1)
+          (reference "K2") (unit 1)
         )
       )
     )
@@ -3359,7 +3359,7 @@
   (symbol (lib_id "Diode:1N5400") (at 224.536 130.048 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a608f9f7-2dc7-4959-bf17-f7c150a25c5e)
-    (property "Reference" "D7" (at 219.456 129.286 90)
+    (property "Reference" "D12" (at 219.456 129.286 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 214.884 131.318 90)
@@ -3382,7 +3382,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D7") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -3449,7 +3449,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -3458,7 +3458,7 @@
   (symbol (lib_id "Device:R") (at 110.49 181.102 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af951204-f708-43bb-8246-16c43ac357b6)
-    (property "Reference" "R24" (at 112.522 180.467 0)
+    (property "Reference" "R13" (at 112.522 180.467 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 112.522 183.007 0)
@@ -3475,7 +3475,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R24") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -3484,7 +3484,7 @@
   (symbol (lib_id "Device:R") (at 34.798 45.974 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afd100eb-1f1e-4bc9-af25-e852b3541482)
-    (property "Reference" "R10" (at 34.798 41.402 90)
+    (property "Reference" "R3" (at 34.798 41.402 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 34.798 43.942 90)
@@ -3501,7 +3501,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R10") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3529,7 +3529,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3538,7 +3538,7 @@
   (symbol (lib_id "Device:R") (at 183.896 96.012 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b64cb908-a078-46d9-a39f-baeb52013b9a)
-    (property "Reference" "R14" (at 179.324 95.25 0)
+    (property "Reference" "R17" (at 179.324 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "319.6R" (at 175.26 97.282 0)
@@ -3555,7 +3555,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R14") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -3564,7 +3564,7 @@
   (symbol (lib_id "Device:R") (at 192.278 102.362 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6b43339-c3d0-4ac1-9cd3-409278591496)
-    (property "Reference" "R15" (at 194.31 101.727 0)
+    (property "Reference" "R19" (at 194.31 101.727 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 194.31 104.267 0)
@@ -3581,7 +3581,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R15") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3609,7 +3609,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3618,7 +3618,7 @@
   (symbol (lib_id "Device:R") (at 49.784 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb540192-3c97-4476-bcf3-727b873b5a56)
-    (property "Reference" "R9" (at 51.816 100.965 0)
+    (property "Reference" "R10" (at 51.816 100.965 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 51.816 103.505 0)
@@ -3635,7 +3635,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3644,7 +3644,7 @@
   (symbol (lib_id "BC817-25_RF:BC817-25_RF") (at 107.95 167.894 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4cc7553-8ab4-4dd6-a22e-deb2d107ebb9)
-    (property "Reference" "Q6" (at 111.76 167.259 0)
+    (property "Reference" "Q4" (at 111.76 167.259 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817-25_RF" (at 111.76 169.799 0)
@@ -3674,7 +3674,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "Q6") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3683,7 +3683,7 @@
   (symbol (lib_id "Diode:1N5400") (at 219.202 68.834 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cca775e1-b048-410d-9495-abcb8fcc0c54)
-    (property "Reference" "D3" (at 214.122 68.072 90)
+    (property "Reference" "D10" (at 214.122 68.072 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 209.55 70.104 90)
@@ -3706,7 +3706,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D3") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -3734,7 +3734,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3743,7 +3743,7 @@
   (symbol (lib_id "BC817-25_RF:BC817-25_RF") (at 189.738 89.154 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7400cc2-ef1d-4c0f-904b-478cbf34489e)
-    (property "Reference" "Q3" (at 193.548 88.519 0)
+    (property "Reference" "Q6" (at 193.548 88.519 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817-25_RF" (at 193.548 91.059 0)
@@ -3773,7 +3773,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "Q3") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -3801,7 +3801,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -3810,7 +3810,7 @@
   (symbol (lib_id "Device:R") (at 49.784 59.182 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e10ac431-edfa-496f-abed-272b09db9427)
-    (property "Reference" "R12" (at 51.816 58.547 0)
+    (property "Reference" "R9" (at 51.816 58.547 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 51.816 61.087 0)
@@ -3827,7 +3827,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R12") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3836,7 +3836,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 239.268 39.878 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e444f60f-71b9-472e-9479-6eaa0f7d7229)
-    (property "Reference" "K9" (at 239.268 28.702 0)
+    (property "Reference" "K6" (at 239.268 28.702 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 239.268 31.242 0)
@@ -3862,7 +3862,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K9") (unit 1)
+          (reference "K6") (unit 1)
         )
       )
     )
@@ -3871,7 +3871,7 @@
   (symbol (lib_id "Device:R") (at 34.798 88.392 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9403169-5986-4689-b502-2827a041ed6f)
-    (property "Reference" "R7" (at 34.798 83.82 90)
+    (property "Reference" "R4" (at 34.798 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 34.798 86.36 90)
@@ -3888,7 +3888,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3897,7 +3897,7 @@
   (symbol (lib_id "Device:R") (at 204.216 142.748 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea131857-7c8c-48b4-904b-a4807bb2b13d)
-    (property "Reference" "R25" (at 204.216 138.176 90)
+    (property "Reference" "R20" (at 204.216 138.176 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 204.216 140.716 90)
@@ -3914,7 +3914,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R25") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3923,7 +3923,7 @@
   (symbol (lib_id "Device:R") (at 95.504 167.894 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea132263-598f-4945-a620-eddd4a16e9aa)
-    (property "Reference" "R22" (at 95.504 163.322 90)
+    (property "Reference" "R11" (at 95.504 163.322 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "620.3R" (at 95.504 165.862 90)
@@ -3940,7 +3940,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R22") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3949,7 +3949,7 @@
   (symbol (lib_id "Device:R") (at 46.736 170.942 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebf02474-a51b-4479-a374-5394cf086c13)
-    (property "Reference" "R21" (at 48.768 170.307 0)
+    (property "Reference" "R8" (at 48.768 170.307 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "13.4R" (at 48.768 172.847 0)
@@ -3966,7 +3966,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "R21") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3975,7 +3975,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 246.634 131.318 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efa51502-5a94-42d3-9199-bf57e6d928ad)
-    (property "Reference" "K6" (at 246.634 120.142 0)
+    (property "Reference" "K9" (at 246.634 120.142 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 246.634 122.682 0)
@@ -4001,7 +4001,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K6") (unit 1)
+          (reference "K9") (unit 1)
         )
       )
     )
@@ -4057,7 +4057,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -4085,7 +4085,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4094,7 +4094,7 @@
   (symbol (lib_id "Diode:1N5400") (at 82.042 99.822 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbdc0b0b-9858-408a-9b1b-413cca89eca4)
-    (property "Reference" "D2" (at 76.962 99.06 90)
+    (property "Reference" "D7" (at 76.962 99.06 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N5400" (at 72.39 101.092 90)
@@ -4117,7 +4117,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "D2") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -4145,7 +4145,7 @@
           (reference "#PWR025") (unit 1)
         )
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -4154,7 +4154,7 @@
   (symbol (lib_id "1393280-6:1393280-6") (at 239.776 70.104 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff6e8d74-d151-4533-afde-b942a947e399)
-    (property "Reference" "K2" (at 239.776 58.928 0)
+    (property "Reference" "K8" (at 239.776 58.928 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1393280-6" (at 239.776 61.468 0)
@@ -4180,7 +4180,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/6bb09854-f5c4-47db-85a6-f840b399c3ae"
-          (reference "K2") (unit 1)
+          (reference "K8") (unit 1)
         )
       )
     )
