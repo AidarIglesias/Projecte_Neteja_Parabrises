@@ -752,6 +752,14 @@
       {
         "netclass": "DIG",
         "pattern": "STB"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "EN1"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "EN2"
       }
     ]
   },
