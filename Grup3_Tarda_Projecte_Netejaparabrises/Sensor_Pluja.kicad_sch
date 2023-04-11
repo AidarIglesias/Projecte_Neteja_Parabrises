@@ -566,7 +566,7 @@
     (property "Value" "CONEXIOSENSOR" (at 89.281 94.488 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 88.9 99.06 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 88.9 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 99.06 0)
@@ -618,7 +618,7 @@
     (property "Value" "10k" (at 107.95 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "POTENCIOMETRE:TRIM_3362P-1-103" (at 110.744 106.68 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 110.744 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.744 106.68 0)
@@ -645,11 +645,7 @@
     (property "Value" "100n" (at 180.086 105.537 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-<<<<<<< HEAD
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 177.4952 107.442 0)
-=======
     (property "Footprint" "Capacitor_SMD:CP_Elec_4x3" (at 177.4952 107.442 0)
->>>>>>> 0d3dbb5728fe4849749c6fe16a1a0918c5967886
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 103.632 0)

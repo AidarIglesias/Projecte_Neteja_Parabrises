@@ -751,14 +751,6 @@
       },
       {
         "netclass": "DIG",
-        "pattern": "PGD"
-      },
-      {
-        "netclass": "DIG",
-        "pattern": "PGC"
-      },
-      {
-        "netclass": "DIG",
         "pattern": "STB"
       }
     ]
