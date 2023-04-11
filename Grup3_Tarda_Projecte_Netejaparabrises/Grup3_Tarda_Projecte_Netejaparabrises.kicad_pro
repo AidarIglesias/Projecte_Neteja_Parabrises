@@ -738,7 +738,7 @@
         "pattern": "EnableM1"
       },
       {
-        "netclass": "DIG",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
@@ -748,6 +748,18 @@
       {
         "netclass": "PWR",
         "pattern": "GNDPWR"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGD"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGC"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "STB"
       }
     ]
   },

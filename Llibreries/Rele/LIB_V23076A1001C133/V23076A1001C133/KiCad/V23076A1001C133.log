@@ -1,0 +1,4 @@
+Circuit: EESchema-LIBRARY Version 2.3
+
+Fatal Error: Unknown subcircuit called in:
+   x coil_1 1 0 0 200 r 50 50 0 0 p
