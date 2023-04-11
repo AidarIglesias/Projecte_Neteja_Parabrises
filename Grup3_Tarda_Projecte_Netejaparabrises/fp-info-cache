@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 21468325181717560
+=======
+21453196552256289
+>>>>>>> 0d3dbb5728fe4849749c6fe16a1a0918c5967886
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64105,6 +64109,7 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+<<<<<<< HEAD
 POTENCIOMETRE
 TRIM_3362P-1-103
 
@@ -64112,6 +64117,22 @@ TRIM_3362P-1-103
 0
 3
 3
+=======
+Oscillator
+XTAL_ABLS2-16.000MHZ-D4Y-T
+
+
+0
+2
+2
+Oscillator
+XTAL_HC49P488W43L1150T466H350
+
+
+0
+2
+2
+>>>>>>> 0d3dbb5728fe4849749c6fe16a1a0918c5967886
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf

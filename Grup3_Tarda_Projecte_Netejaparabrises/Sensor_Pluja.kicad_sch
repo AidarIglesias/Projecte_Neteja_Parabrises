@@ -560,7 +560,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 88.9 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2018c3a9-53d9-453c-a889-a6b3e75d6997)
-    (property "Reference" "J3" (at 89.408 92.456 0)
+    (property "Reference" "J7" (at 89.408 92.456 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CONEXIOSENSOR" (at 89.281 94.488 0)
@@ -577,7 +577,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "J3") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -645,7 +645,11 @@
     (property "Value" "100n" (at 180.086 105.537 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< HEAD
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 177.4952 107.442 0)
+=======
+    (property "Footprint" "Capacitor_SMD:CP_Elec_4x3" (at 177.4952 107.442 0)
+>>>>>>> 0d3dbb5728fe4849749c6fe16a1a0918c5967886
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 103.632 0)
@@ -665,7 +669,7 @@
   (symbol (lib_id "Comparator:LM393") (at 141.478 103.886 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fdf6285-6616-422e-8bb3-6e289e581e85)
-    (property "Reference" "U3" (at 141.478 94.742 0)
+    (property "Reference" "U2" (at 141.478 94.742 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM393" (at 141.478 97.282 0)
@@ -688,7 +692,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -697,7 +701,7 @@
   (symbol (lib_id "power:GND") (at 186.182 111.506 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbdca4b3-81a3-47db-ae33-80462e3fcd41)
-    (property "Reference" "#PWR015" (at 186.182 117.856 0)
+    (property "Reference" "#PWR018" (at 186.182 117.856 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 113.411 0)
@@ -713,7 +717,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -722,7 +726,7 @@
   (symbol (lib_id "Comparator:LM393") (at 188.722 103.632 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be16f964-d3dc-4761-b3f7-1f878579848f)
-    (property "Reference" "U3" (at 187.706 102.997 0)
+    (property "Reference" "U2" (at 187.706 102.997 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM393" (at 187.706 105.537 0)
@@ -745,7 +749,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "U3") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -754,7 +758,7 @@
   (symbol (lib_id "power:GND") (at 115.062 115.824 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c55632b3-439e-4255-9361-ad9dd81e0fe5)
-    (property "Reference" "#PWR016" (at 115.062 122.174 0)
+    (property "Reference" "#PWR017" (at 115.062 122.174 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 117.729 0)
@@ -770,7 +774,7 @@
     (instances
       (project "Grup3_Tarda_Projecte_Netejaparabrises"
         (path "/7ae78f34-680b-4fd9-8391-ce3e1c73c4b5/1911e221-32e7-4aa1-805e-6cbecb9cf221"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
