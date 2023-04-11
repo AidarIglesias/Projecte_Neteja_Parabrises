@@ -2,6 +2,9 @@
 ## Sistema de Neteja-Parabrises D'Un Automobil  
 ###### David Miravent, Biel Hornas, Aidar Iglesias  
 
+# IMPORTANT  
+**Al CADLAB.io NO ES VISUALITZA CORRECTAMENT LES NET CLASSES. ENCARA QUE SEMBLI TOTES LES CONNEXIONS PERTANYIN A LA NET CLASS PER DEFECTE DE KICAD, AQUESTES ESTAN ASSIGNADES. A MES, ELS TITOLS, NOMS I TEXT QUE APAREIXEN A QUALSEVOL LLOC DE L'ESQUEMATIC PODEN ESTAR DISTORSIONATS, DEGUT A ERRORS DE FORMATEIG DEL CADLAB.**  
+
 ### Objectiu  
 Aquest projecte te com a objectiu dissenyar el l'entorn electronic que conforma el sistema de neteja-parabrises d'un automobil.  
 El projecte estara dividit en 7 parts:  
@@ -38,7 +41,7 @@ El sistema ha de complir les seguents **especificacions**:
 
 ### Funcionament  
 
-El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers i un H-Bridge. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, dissenyat a partir d'un sensor de corrent, que evitara la sobrecarrega als motors i indicara el canvi de sentit del gir.  
+El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers, conformats per un BJT i un rele. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, dissenyat a partir d'un sensor de corrent, que evitara la sobrecarrega als motors i indicara el canvi de sentit del gir.  
 
 El sistema tambe inclou dues bombes de liquid neteja-parabrises, cadascuna d'elles controlada per un driver i un rele. Aquestes s'activaran quan el conductor ho desitgi i funcionaran de la mateixa manera que el neteja-parabrises: mitjançant un motor.  
 
@@ -89,14 +92,14 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | Data | Autor | Descripcio |  
 | ---- | ----- | ---------- |  
 | 23.03.2023 | David Miravent | Tramesa de la tasca per a la primera versio de la presentacio. |  
-| 27.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Diagrama de blocs: Eliminat el sensor de temperatura. Eliminats els busos i transceivers CAN que estaven connectats entre els sensors + els que connectaven el µC amb els motors. Modificada la botonera. Afegit el nou bus CAN. Modificat el connector de programacio i debug. Modificats els drivers i els components de potencia. Modificat l'oscil·lador. Afegit el driver del sensor de pluja. Afegits els consums individuals de cada component. Inclosos els pins de les connexions µC-periferics. |  
+| 27.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Diagrama de blocs: Eliminat el sensor de temperatura. Eliminats els busos i transceivers CAN que estaven connectats entre els sensors + els que connectaven el PIC amb els motors. Modificada la botonera. Afegit el nou bus CAN. Modificat el connector de programacio i debug. Modificats els drivers i els components de potencia. Modificat l'oscilador. Afegit el driver del sensor de pluja. Afegits els consums individuals de cada component. Inclosos els pins de les connexions PIC-periferics. |  
 | 28.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Presentacio: Actualitzada la llista de components (diap. 5, 6). Inclosos els parametres d'interes per a cada component (diap. 8 - 18). Actualitzat el diagrama de blocs (diap. 19). |  
 | 30.03.2023 | Biel Hornas, David Miravent | Realitzacio simulacions regulador de tensio + sensor de pluja, modificat el esquematic (sch) del projecte : s'han afegit totes les etapes del sistema en estructura de fulles jerarquiques. |  
-| 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs. Corregit el valor de consum del µC. Modificat el connector de la botonera |  
+| 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs. Corregit el valor de consum del PIC. Modificat el connector de la botonera |  
 | 04.04.2023 | Biel Hornas | Actualitzada la jerarquia de fulls de l'esquematic: *Alimentacio*, *Digital*, *Analog* i *Potencia*. Sensor de pluja ficat tot en una mateixa capsa. Modificada la botonera: s'han eliminat els interruptors, ja que son externs a la placa. Corregits els noms de les *nets* a l'esquematic dels drivers de motors, que causaven curt-circuits. Canviat el model dels reles a V23086C1001A403, ja que te millor simbol i footprint. Modificat el connector d'alimentacio a l'esquematic del regulador. |  
-| 05.04.2023 | Aidar Iglesias, David Miravent | Esquematic: Afegit titol al sheet *root*: **Sistema de Netejaparabrises**. Modificada la ubicacio del LED d'alimentacio: del µC al regulador. Reset Manual i Oscil·lador connectats directament al µC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al µC. |  
-| 07.04.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (µC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
-| 12.04.03 | Biel Hornas | Esquematic: Introduït interruptors botonera. Assignats els footprints. Detalls menors de presentació. |  
+| 05.04.2023 | Aidar Iglesias, David Miravent | Esquematic: Afegit titol al sheet *root*: **Sistema de Netejaparabrises**. Modificada la ubicacio del LED d'alimentacio: del PIC al regulador. Reset Manual i Oscilador connectats directament al PIC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al PIC. |  
+| 07.04.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (PIC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
+| 12.04.03 | Biel Hornas | Esquematic: Introduit interruptors botonera. Assignats els footprints. Detalls menors de presentacio. |  
 
 
 [L78S05CV]:(https://www.mouser.es/ProductDetail/STMicroelectronics/L78S05CV?qs=sepekKm5O7lXLQm2U%2FAl6g%3D%3D&gclid=CjwKCAjwitShBhA6EiwAq3RqA3wYzOr6KgEihhkBNQWsUATrzgaJOhJsAJeUwqPGs_Bh51Mrr2mAXBoCGicQAvD_BwE)
