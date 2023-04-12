@@ -760,6 +760,14 @@
       {
         "netclass": "PWR",
         "pattern": "EN2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGC"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "PGD"
       }
     ]
   },
