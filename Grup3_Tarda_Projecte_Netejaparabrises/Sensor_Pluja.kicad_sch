@@ -618,7 +618,7 @@
     (property "Value" "10k" (at 107.95 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 110.744 106.68 0)
+    (property "Footprint" "Projecte:TRIM_3362P-1-103" (at 110.744 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.744 106.68 0)
