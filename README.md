@@ -2,9 +2,6 @@
 ## Sistema de Neteja-Parabrises D'Un Automobil  
 ###### David Miravent, Biel Hornas, Aidar Iglesias  
 
-# IMPORTANT  
-**Al CADLAB.io NO ES VISUALITZA CORRECTAMENT LES NET CLASSES. ENCARA QUE SEMBLI TOTES LES CONNEXIONS PERTANYIN A LA NET CLASS PER DEFECTE DE KICAD, AQUESTES ESTAN ASSIGNADES. A MES, ELS TITOLS, NOMS I TEXT QUE APAREIXEN A QUALSEVOL LLOC DE L'ESQUEMATIC PODEN ESTAR DISTORSIONATS, DEGUT A ERRORS DE FORMATEIG DEL CADLAB.**  
-
 ### Objectiu  
 Aquest projecte te com a objectiu dissenyar el l'entorn electronic que conforma el sistema de neteja-parabrises d'un automobil.  
 El projecte estara dividit en 7 parts:  
@@ -22,7 +19,7 @@ El projecte estara dividit en 7 parts:
 ### Caracteristiques i epecificacions  
 El sistema de neteja-parabrises te com a caracteristica principal, com ja diu el seu nom, netejar la lluna del parabrises. Com que aquest sistema sera part d'un conjunt de ECUs (Electronic Control Unit) d'un automobil, hi ha un serie d'elements que tots ells tindran en comu:  
 
-* Una etapa de regulacio de tensio (es fara servir [L78S05CV])
+* Una etapa de regulacio de tensio (es fara servir [LM1117-5.0])
 * Un microcontrolador (es fara servir un [PIC18F2580] de 28 pins) encarregat del control del nostre modul i de la comunicacio amb els altres
 * Un bus de programacio i debug del microcontrolador
 * Un bus [CAN] que permet la comunicacio sincrona amb els altres moduls
@@ -41,7 +38,7 @@ El sistema ha de complir les seguents **especificacions**:
 
 ### Funcionament  
 
-El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers, conformats per un BJT i un rele. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, dissenyat a partir d'un sensor de corrent, que evitara la sobrecarrega als motors i indicara el canvi de sentit del gir.  
+El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers i un H-Bridge. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, dissenyat a partir d'un sensor de corrent, que evitara la sobrecarrega als motors i indicara el canvi de sentit del gir.  
 
 El sistema tambe inclou dues bombes de liquid neteja-parabrises, cadascuna d'elles controlada per un driver i un rele. Aquestes s'activaran quan el conductor ho desitgi i funcionaran de la mateixa manera que el neteja-parabrises: mitjançant un motor.  
 
@@ -64,8 +61,8 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 ![Diagrama 2](NetejaParabrises_DiagramaDeBlocs.drawio.png)  
 **Figura 2.** Versio 2 del diagrama de blocs - 30.03.2023.  
 
-![Diagrama 3](NetejaParabrises_DiagramaDeBlocs.drawio(2).png)  
-**Figura 3.** Versio 3 del diagrama de blocs - 12.04.2023.
+![Diagrama 3]()  
+**Figura 3.** Versio 3 del diagrama de blocs - 31.03.2023.
 
 ----  
 
@@ -75,7 +72,7 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | ---- | ---------- | --------- |  
 | PIC18F2580 | 28-Pin High Performance, Enhanced FLASH Microcontroller with CAN. S'encarrega del control integral del sistema. | [PIC18F2580] |  
 | TCAN1042 | TCAN1042 Fault Protected CAN Transceiver with CAN FD. L'utilitzarem per a la comunicacio entre moduls independents. | [TCAN1042] |  
-| L78S05CV | L78S is a 2A positive voltage regulator IC. Si be hi han diversos models de la mateixa familia, farem servir el que dona una tensio de sortida de 5V fixos. | [L78S05CV] |  
+| LM1117-5.0 | LM1117 800-mA, Low-Dropout Linear Regulator. Si be hi han diversos models de la mateixa familia, farem servir el que dona una tensio de sortida de 5V fixos. | [LM1117-5.0] |  
 | ABLS2-8.000MHZ-D4Y-T | Low Profile Surface Mount Microprocessor Crystal. L'usarem com a font de senyal sincron de referencia per al microcontrolador. Es de 8MHz. | [ABLS2-8MHZ]  
 | V23076A1001C133 | Automotive, PCB Single Power Relay K (Sealed) with wide voltage range and limiting continuous current 45A. Utilitzarem aquest rele per a les aplicacions de potencia, com ara la commutacio dels motors, de les bombes i del calefactor. | [V23076A1001C133]  
 | BC817-25 | NPN general purpose transistor used for switching and amplification. Features high current (max. 500 mA) and low voltage (max. 45 V). Transistor bipolar NPN que farem servir per a amplificar el corrent de commutacio dels reles. | [BC817-25] |  
@@ -92,17 +89,16 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | Data | Autor | Descripcio |  
 | ---- | ----- | ---------- |  
 | 23.03.2023 | David Miravent | Tramesa de la tasca per a la primera versio de la presentacio. |  
-| 27.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Diagrama de blocs: Eliminat el sensor de temperatura. Eliminats els busos i transceivers CAN que estaven connectats entre els sensors + els que connectaven el PIC amb els motors. Modificada la botonera. Afegit el nou bus CAN. Modificat el connector de programacio i debug. Modificats els drivers i els components de potencia. Modificat l'oscilador. Afegit el driver del sensor de pluja. Afegits els consums individuals de cada component. Inclosos els pins de les connexions PIC-periferics. |  
+| 27.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Diagrama de blocs: Eliminat el sensor de temperatura. Eliminats els busos i transceivers CAN que estaven connectats entre els sensors + els que connectaven el µC amb els motors. Modificada la botonera. Afegit el nou bus CAN. Modificat el connector de programacio i debug. Modificats els drivers i els components de potencia. Modificat l'oscil·lador. Afegit el driver del sensor de pluja. Afegits els consums individuals de cada component. Inclosos els pins de les connexions µC-periferics. |  
 | 28.03.2023 | Biel Hornas, David Miravent, Aidar Iglesias | Presentacio: Actualitzada la llista de components (diap. 5, 6). Inclosos els parametres d'interes per a cada component (diap. 8 - 18). Actualitzat el diagrama de blocs (diap. 19). |  
 | 30.03.2023 | Biel Hornas, David Miravent | Realitzacio simulacions regulador de tensio + sensor de pluja, modificat el esquematic (sch) del projecte : s'han afegit totes les etapes del sistema en estructura de fulles jerarquiques. |  
-| 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs. Corregit el valor de consum del PIC. Modificat el connector de la botonera |  
+| 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs. Corregit el valor de consum del µC. Modificat el connector de la botonera |  
 | 04.04.2023 | Biel Hornas | Actualitzada la jerarquia de fulls de l'esquematic: *Alimentacio*, *Digital*, *Analog* i *Potencia*. Sensor de pluja ficat tot en una mateixa capsa. Modificada la botonera: s'han eliminat els interruptors, ja que son externs a la placa. Corregits els noms de les *nets* a l'esquematic dels drivers de motors, que causaven curt-circuits. Canviat el model dels reles a V23086C1001A403, ja que te millor simbol i footprint. Modificat el connector d'alimentacio a l'esquematic del regulador. |  
-| 05.04.2023 | Aidar Iglesias, David Miravent | Esquematic: Afegit titol al sheet *root*: **Sistema de Netejaparabrises**. Modificada la ubicacio del LED d'alimentacio: del PIC al regulador. Reset Manual i Oscilador connectats directament al PIC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al PIC. |  
-| 07.04.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (PIC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
-| 12.04.03 | Biel Hornas | Esquematic: Introduit interruptors botonera. Assignats els footprints. Detalls menors de presentacio. |  
+| 05.04.2023 | Aidar Iglesias, David Miravent | Esquematic: Afegit titol al sheet *root*: **Sistema de Netejaparabrises**. Modificada la ubicacio del LED d'alimentacio: del µC al regulador. Reset Manual i Oscil·lador connectats directament al µC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al µC. |  
+| 07.05.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (µC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
 
 
-[L78S05CV]:(https://www.mouser.es/ProductDetail/STMicroelectronics/L78S05CV?qs=sepekKm5O7lXLQm2U%2FAl6g%3D%3D&gclid=CjwKCAjwitShBhA6EiwAq3RqA3wYzOr6KgEihhkBNQWsUATrzgaJOhJsAJeUwqPGs_Bh51Mrr2mAXBoCGicQAvD_BwE)
+[LM1117-5.0]:(https://pdf1.alldatasheet.com/datasheet-pdf/view/1283792/ONSEMI/LM1117.html)
 [PIC18F2580]:(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjDqqnf-fv9AhWAXaQEHbvXCRAQFnoECBAQAQ&url=http%3A%2F%2Fww1.microchip.com%2Fdownloads%2Fen%2Fdevicedoc%2F39637d.pdf&usg=AOvVaw2IUnS-oBxKa8P9iGtzo3Zw)
 [CAN]:(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiok8Se-vv9AhVSUKQEHZ1pCZgQFnoECAwQAQ&url=https%3A%2F%2Fwww.ti.com%2Flit%2Fpdf%2Fsloa101&usg=AOvVaw2UOzkNpIhXCxiMwoktDuf0)  
 [I2C]:(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjWtri9-vv9AhV0UKQEHW7hC54QFnoECA4QAw&url=https%3A%2F%2Flearn.sparkfun.com%2Ftutorials%2Fi2c%2Fall&usg=AOvVaw2qpJdC-UXOjJ03YiNE41H4)

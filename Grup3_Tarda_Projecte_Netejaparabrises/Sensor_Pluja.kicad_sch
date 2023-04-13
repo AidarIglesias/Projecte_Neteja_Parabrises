@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projecte Netejaparabrises - Grup 4 Tarda")
-    (date "2023-04-12")
-    (rev "v1.2.12042023")
+    (date "2023-04-05")
+    (rev "v1.1.05042023")
   )
 
   (lib_symbols
@@ -618,7 +618,7 @@
     (property "Value" "10k" (at 107.95 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Projecte:TRIM_3362P-1-103" (at 110.744 106.68 0)
+    (property "Footprint" "POTENCIOMETRE:TRIM_3362P-1-103" (at 110.744 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 110.744 106.68 0)
@@ -645,7 +645,7 @@
     (property "Value" "100n" (at 180.086 105.537 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_4x3" (at 177.4952 107.442 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 177.4952 107.442 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 103.632 0)

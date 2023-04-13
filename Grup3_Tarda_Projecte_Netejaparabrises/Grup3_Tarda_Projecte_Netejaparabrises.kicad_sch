@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projecte Netejaparabrises - Grup 4 Tarda")
-    (date "2023-04-12")
-    (rev "v1.2.12042023")
+    (date "2023-04-05")
+    (rev "v1.1.05042023")
   )
 
   (lib_symbols
@@ -60,7 +60,7 @@
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid 9f813869-efbf-4568-99d8-86550f5d4b1e)
   )
-  (text "POTENCIA" (at 199.136 52.832 0)
+  (text "DRIVERS I MOTORS" (at 199.136 52.832 0)
     (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
     (uuid aa94c776-fdc3-4c12-88ae-91978e7271dc)
   )

@@ -1,4 +1,4 @@
-21453196552256289
+21468326605370698
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,20 @@ audio belton reverb
 0
 7
 7
+BC817-25_RF
+SOT95P237X112-3N
+
+
+0
+3
+3
+BLM03HD331SZ1D
+BEADC0603X33N
+
+
+0
+2
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59254,6 +59268,13 @@ solder jumper open
 0
 5
 3
+L78S05CV
+TO-220-STANDING
+
+
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -60381,6 +60402,34 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+AS11CH
+
+
+0
+5
+5
+Libreia
+SOIC127P1030X265-28N
+
+
+0
+28
+28
+Libreia
+SW_2-1437565-7
+
+
+0
+4
+4
+Libreia
+TO-220-3_Horizontal_TabDown_mod
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+4
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -64056,20 +64105,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-Oscillator
-XTAL_ABLS2-16.000MHZ-D4Y-T
+POTENCIOMETRE
+TRIM_3362P-1-103
 
 
 0
-2
-2
-Oscillator
-XTAL_HC49P488W43L1150T466H350
-
-
-0
-2
-2
+3
+3
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -82445,6 +82487,13 @@ rotary encoder
 0
 7
 6
+SW_NR01103ANG13-1C
+SW_NR01103ANG13-1C
+
+
+0
+10
+10
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -88815,6 +88864,13 @@ igbt diode module
 0
 25
 25
+V23076A1001C133
+V23076A1001C133
+V23076A1001C133-1
+Relay or Contactor
+0
+7
+7
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -89589,6 +89645,13 @@ Varistor
 RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
 Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
 varistor
+0
+2
+2
+XTAL_ABLS2-8
+XTAL_ABLS2-8.000MHZ-D4Y-T
+
+
 0
 2
 2
