@@ -773,6 +773,10 @@
       {
         "netclass": "DIG",
         "pattern": "PGC"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/Alimentacio/Vbat"
       }
     ]
   },
