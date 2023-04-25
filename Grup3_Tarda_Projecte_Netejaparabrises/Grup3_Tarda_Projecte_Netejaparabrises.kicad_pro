@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.7,
+          "height": 5.6,
+          "width": 10.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -785,6 +785,10 @@
       {
         "netclass": "PWR",
         "pattern": "EN2"
+      },
+      {
+        "netclass": "DIG",
+        "pattern": "/Digital/Vfinal"
       }
     ]
   },

@@ -4,6 +4,7 @@
 
 ### Objectiu  
 Aquest projecte te com a objectiu dissenyar el l'entorn electronic que conforma el sistema de neteja-parabrises d'un automobil.  
+
 El projecte estara dividit en 7 parts:  
 
 1. Diagrama de blocs i components
@@ -38,29 +39,51 @@ El sistema ha de complir les seguents **especificacions**:
 
 ### Funcionament  
 
-El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers i un H-Bridge. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, dissenyat a partir d'un sensor de corrent, que evitara la sobrecarrega als motors i indicara el canvi de sentit del gir.  
+El sistema al complet estara controlat per el microcontrolador. Per al moviment dels neteja parabrises, es faran servir dos motors, un per davant i un per darrere. Aquests motors estaran controlats per uns drivers, els quals subministren el corrent necessari per activar uns reles que faran girar els motors en un sentit o en l'altre. Quan l'usuari desitgi o quan el sensor de pluja detecti pluja, el microcontrolador enviara el senyal d'activacio dels motors. Tambe s'incloura un sistema de final de carrera, que indicara quan s'ha acabat el trajecte de la escombreta del neteja-parabrises i la fara canviar de sentit.  
 
-El sistema tambe inclou dues bombes de liquid neteja-parabrises, cadascuna d'elles controlada per un driver i un rele. Aquestes s'activaran quan el conductor ho desitgi i funcionaran de la mateixa manera que el neteja-parabrises: mitjançant un motor.  
+El sistema tambe implementa dues bombes de liquid neteja-parabrises, cadascuna d'elles controlada per un driver i un rele. Aquestes s'activaran quan el conductor ho desitgi i funcionaran de la mateixa manera que el neteja-parabrises: mitjançant un motor.  
 
-Hi haura un mode de neteja automatic, accionat per un sensor digital de pluja. Quan es detecti pluja, el neteja-parabrises es posara en funcionament a velocitat 1.  
+Hi haura un mode de neteja automatic, accionat per un sensor digital de pluja. Quan es detecti pluja. Aleshores, el neteja-parabrises es posara en funcionament.  
 
-Hi ha (tres)? modes d'operacio:
-* Velocitat 1 (Velocitat per defecte)
-* Velocitat 2 (Velocitat mes alta)
-* Automatic 3 (El sensor de pluja activa el neteja-parabrises i el fa funcionar a velocitat 1 per defecte)  
+Hi ha quatre opcions a escollir:
+* Activar motor neteja-parabrises davanter
+* Activar motor neteja-parabrises darrere
+* Automatic (El sensor de pluja activa els neteja-parabrises)  
 
-A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activar les bombes de liquid manualment. Addicionalment, pot fer que les escombretes fagin una sola passada, tambe amb activacio manual.  
+Mes enlla d'aquests 3 modes de funcionament, si aixi ho desitja, l'usuari pot activar les bombes de liquid manualment. Addicionalment, pot fer que les escombretes fagin una sola passada, tambe amb activacio manual.  
 
 ----  
 
-#### Diagrama de Blocs  
+### Diagrama de Blocs  
 
 ![Diagrama 3](NetejaParabrises_DiagramaDeBlocs.drawio(2).png)  
-**Figura 3.** Versio 3 del diagrama de blocs - 13.04.2023.
+**Figura 3.** Versio 3 del diagrama de blocs - 13.04.2023.  
 
 ----  
 
-#### Components  
+### Taula de funcionament dels reles  
+
+| **EnableM1** | **DriverM1** | **MOTOR 1** |  
+| ------------ | ------------ | ----------- |  
+| 0            | 0            | 0           |  
+| 0            | 1            | 0           |  
+| 1            | 0            | 0           |  
+| 1            | 1            | 1           |  
+
+**Taula 1.** Taula del funcionament dels reles del motor neteja-parabrises davanter.  
+
+| **EnableM2** | **DriverM2** | **MOTOR 2** |  
+| ------------ | ------------ | ----------- |  
+| 0            | 0            | 0           |  
+| 0            | 1            | 0           |  
+| 1            | 0            | 0           |  
+| 1            | 1            | 1           |  
+
+**Taula 2.** Taula del funcionament dels reles del motor neteja-parabrises del darrere.
+
+---  
+
+### Components  
 
 | Ref. | Descripcio | Datasheet |  
 | ---- | ---------- | --------- |  
@@ -78,7 +101,7 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | EHDB9MF | Connector DB-9 de entrada-sortida de la comunicacio CAN. | [EHDB9MF] |  
 
 ----
-#### Historial de canvis  
+### Historial de canvis  
 
 | Data | Autor | Descripcio |  
 | ---- | ----- | ---------- |  
@@ -88,10 +111,11 @@ A part d'aquest 3 modes de funcionament, si aixi ho desitja, l'usuari pot activa
 | 30.03.2023 | Biel Hornas, David Miravent | Realitzacio simulacions regulador de tensio + sensor de pluja, modificat el esquematic (sch) del projecte : s'han afegit totes les etapes del sistema en estructura de fulles jerarquiques. |  
 | 31.03.2023 | Aidar Iglesias | README: actualitzada la imatge del diagrama de blocs. Corregit el valor de consum del PIC. Modificat el connector de la botonera |  
 | 04.04.2023 | Biel Hornas | Actualitzada la jerarquia de fulls de l'esquematic: *Alimentacio*, *Digital*, *Analog* i *Potencia*. Sensor de pluja ficat tot en una mateixa capsa. Modificada la botonera: s'han eliminat els interruptors, ja que son externs a la placa. Corregits els noms de les *nets* a l'esquematic dels drivers de motors, que causaven curt-circuits. Canviat el model dels reles a V23086C1001A403, ja que te millor simbol i footprint. Modificat el connector d'alimentacio a l'esquematic del regulador. |  
-| 05.04.2023 | David Miravent, Aidar Iglesias | Esquematic: Afegit titol al sheet *root*: **Sistema de Netejaparabrises**. Modificada la ubicacio del LED d'alimentacio: del PIC al regulador. Reset Manual i Oscil·lador connectats directament al PIC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al PIC. |  
+| 05.04.2023 | David Miravent, Aidar Iglesias | Esquematic: Afegit titol al sheet *root*: **Sistema de Neteja-parabrises**. Modificada la ubicacio del LED d'alimentacio: del PIC al regulador. Reset Manual i Oscil·lador connectats directament al PIC. Corregides les connexions del connector DB-9 del bus CAN. Afegit connector DB-9 per al modul de comunicacio USART. Moduls de comunicacio CAN i USART connectats directament al PIC. |  
 | 07.05.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (PIC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
 | 10.04.2023 | David Miravent, Biel Hornas, Aidar Iglesias | Esquematic: Afegides les ferrites per separar el GND de potencia i el GND general. Layout: dissenyada la primera versio del Layout. |  
 | 17.04.2023 | David Miravent, Biel Hornas, Aidar Iglesias | Esquematic: Canviat el node de VBAT al node despres del diode 1n4002 (protegit de canvis de polaritats). Corregida la separacio de GNDPWR i GND al regulador. Canviat el tipus de connector dels motors de pin-header a screwdriver. Canviat el divisor de tensio del sensor de pluja. |  
+| 24.04.2023 | Biel Hornas, Aidar Iglesias, David Miravent | Esquematic: afegit el sistema de final de carrera. Assignades les xarxes dels BJTs a la classe ANG. Layout: Canviats totes les capacitats i totes les resistencies a SMD. Dissenyats els copper pours de manera que quedin regulars i uniformes per tota la PCB. Disminuit el tamany de les pistes de potencia. Recolocats alguns components. Re-routing general de la part de potencia. Afegides les llagrimes a les connexions pista-via i pista-pad.
 
 
 
