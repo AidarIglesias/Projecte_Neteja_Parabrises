@@ -485,14 +485,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 2.0,
-        "microvia_drill": 1.8,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 1.8,
-        "via_diameter": 2.2,
-        "via_drill": 2.0,
+        "track_width": 1.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 20
       }
     ],
@@ -651,87 +651,87 @@
         "pattern": "/Digital/Rx"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_b1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_b1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_b1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_b2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_b2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_b2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_lu"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_lu"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_lu"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_EN1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_EN1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_EN1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_EN2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_EN2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_EN2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_m1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_m1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_m1"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vb_m2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Ve_m2"
       },
       {
-        "netclass": "PWR",
+        "netclass": "ANG",
         "pattern": "/Potencia/Vc_m2"
       },
       {
