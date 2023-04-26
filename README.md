@@ -56,8 +56,8 @@ Mes enlla d'aquests 3 modes de funcionament, si aixi ho desitja, l'usuari pot ac
 
 ### Diagrama de Blocs  
 
-![Diagrama 3](NetejaParabrises_DiagramaDeBlocs.drawio(2).png)  
-**Figura 3.** Versio 3 del diagrama de blocs - 13.04.2023.  
+![Diagrama 4](NetejaParabrises_DiagramaDeBlocs.drawio(4).png)  
+**Figura 3.** Versio 4 del diagrama de blocs - 13.04.2023.  
 
 ----  
 
@@ -115,8 +115,8 @@ Mes enlla d'aquests 3 modes de funcionament, si aixi ho desitja, l'usuari pot ac
 | 07.05.2023 | Aidar Iglesias | Esquematic: Canviat el regulador de tensio: LM1117-5 a L78S05CV (corrent de sortida major). Canviats els valors de les capacitats d'entrada i sortida del regulador. Corregides les connexions dels drivers de l'apartat de potencia (feien curt-circuit de la bateria a terra). Diagrama de blocs: actualitzat el regulador de tensio de LM1117 a L78S05CV. Corregits els valors de consum (PIC, LM393, TCAN1042) Presentacio: Actualitzat el diagrama de blocs. |  
 | 10.04.2023 | David Miravent, Biel Hornas, Aidar Iglesias | Esquematic: Afegides les ferrites per separar el GND de potencia i el GND general. Layout: dissenyada la primera versio del Layout. |  
 | 17.04.2023 | David Miravent, Biel Hornas, Aidar Iglesias | Esquematic: Canviat el node de VBAT al node despres del diode 1n4002 (protegit de canvis de polaritats). Corregida la separacio de GNDPWR i GND al regulador. Canviat el tipus de connector dels motors de pin-header a screwdriver. Canviat el divisor de tensio del sensor de pluja. |  
-| 24.04.2023 | Biel Hornas, Aidar Iglesias, David Miravent | Esquematic: afegit el sistema de final de carrera. Assignades les xarxes dels BJTs a la classe ANG. Layout: Canviats totes les capacitats i totes les resistencies a SMD. Dissenyats els copper pours de manera que quedin regulars i uniformes per tota la PCB. Disminuit el tamany de les pistes de potencia. Recolocats alguns components. Re-routing general de la part de potencia. Afegides les llagrimes a les connexions pista-via i pista-pad.
-
+| 24.04.2023 | Biel Hornas, Aidar Iglesias, David Miravent | Esquematic: afegit el sistema de final de carrera. Assignades les xarxes dels BJTs a la classe ANG. Layout: Canviats totes les capacitats i totes les resistencies a SMD. Dissenyats els copper pours de manera que quedin regulars i uniformes per tota la PCB. Disminuit el tamany de les pistes de potencia. Recolocats alguns components. Re-routing general de la part de potencia. Afegides les llagrimes a les connexions pista-via i pista-pad.  
+| 26.04.2023 | David Miravent, Biel Hornas, Aidar Iglesias | Generacio dels fitxers BOM i calcul del pressupost de la placa en tirada curta i llarga. Presentacio: Actualitzades les diapositives de l'esquematic i del layout. |  
 
 
 [L78S05CV]:(https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwizl6HozLD-AhWBLOwKHajVC9oQFnoECBYQAQ&url=https%3A%2F%2Fwww.mouser.com%2FProductDetail%2FSTMicroelectronics%2FL78S05CV%3Fqs%3DsepekKm5O7lXLQm2U%252FAl6g%253D%253D&usg=AOvVaw0-vxvqoBEyTqxAWQKdSOBr)
