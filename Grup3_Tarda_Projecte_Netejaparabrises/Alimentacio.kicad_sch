@@ -1502,7 +1502,7 @@
     (property "Reference" "R1" (at 160.02 77.343 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "220" (at 160.02 79.883 0)
+    (property "Value" "220R" (at 160.02 79.883 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 156.21 77.978 90)
