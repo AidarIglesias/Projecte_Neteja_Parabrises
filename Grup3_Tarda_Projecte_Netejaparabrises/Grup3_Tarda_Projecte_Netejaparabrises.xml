@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/aidar/Documents/Projecte_Neteja_Parabrises/Grup3_Tarda_Projecte_Netejaparabrises/Grup3_Tarda_Projecte_Netejaparabrises.kicad_sch</source>
-    <date>mié 26 abr 2023 17:08:52</date>
-    <tool>Eeschema 7.0.2-6a45011f42~172~ubuntu22.04.1</tool>
+    <source>D:\Biel\Documents\2 UNI\8 SEMESTRE\EINES DISSENY\PROJECTE\AA PROJECTE\Projecte_Neteja_Parabrises\Grup3_Tarda_Projecte_Netejaparabrises\Grup3_Tarda_Projecte_Netejaparabrises.kicad_sch</source>
+    <date>4/27/2023 12:21:47 PM</date>
+    <tool>Eeschema (7.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Projecte Netejaparabrises - Grup 4 Tarda</title>
         <company/>
         <rev>v1.3.20042023</rev>
-        <date>2023-04-20</date>
+        <date>2023-04-27</date>
         <source>Grup3_Tarda_Projecte_Netejaparabrises.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>Projecte Netejaparabrises - Grup 4 Tarda</title>
         <company/>
-        <rev>v1.3.20042023</rev>
-        <date>2023-04-20</date>
+        <rev>v1.4.27042023</rev>
+        <date>2023-04-27</date>
         <source>Alimentacio.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -45,7 +45,7 @@
         <title>Projecte Netejaparabrises - Grup 4 Tarda</title>
         <company/>
         <rev>v1.3.20042023</rev>
-        <date>2023-04-20</date>
+        <date>2023-04-27</date>
         <source>Microcontrolador.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -63,7 +63,7 @@
         <title>Projecte Netejaparabrises - Grup 4 Tarda</title>
         <company/>
         <rev>v1.3.20042023</rev>
-        <date>2023-04-20</date>
+        <date>2023-04-27</date>
         <source>Sensor_Pluja.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -81,7 +81,7 @@
         <title>Projecte Netejaparabrises - Grup 4 Tarda</title>
         <company/>
         <rev>v1.3.20042023</rev>
-        <date>2023-04-20</date>
+        <date>2023-04-27</date>
         <source>Potencia.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -321,7 +321,7 @@
     </comp>
     <comp ref="J2">
       <value>BOTONERA</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x06_Pin" description="Generic connector, single row, 01x06, script generated"/>
       <property name="Sheetname" value="Digital"/>
       <property name="Sheetfile" value="Microcontrolador.kicad_sch"/>
@@ -332,7 +332,7 @@
     </comp>
     <comp ref="J3">
       <value>PROGRAMMING CON</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
       <property name="Sheetname" value="Digital"/>
       <property name="Sheetfile" value="Microcontrolador.kicad_sch"/>
@@ -343,7 +343,7 @@
     </comp>
     <comp ref="J4">
       <value>JP1</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
       <property name="Sheetname" value="Digital"/>
       <property name="Sheetfile" value="Microcontrolador.kicad_sch"/>
@@ -378,7 +378,7 @@
     </comp>
     <comp ref="J13">
       <value>FINAL DE CARRERA</value>
-      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="Digital"/>
       <property name="Sheetfile" value="Microcontrolador.kicad_sch"/>
@@ -389,7 +389,7 @@
     </comp>
     <comp ref="J14">
       <value>FINAL DE CARRERA</value>
-      <footprint>Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="Digital"/>
       <property name="Sheetfile" value="Microcontrolador.kicad_sch"/>
@@ -550,7 +550,7 @@
     </comp>
     <comp ref="J7">
       <value>CONEXIOSENSOR</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="Sheetname" value="Analog"/>
       <property name="Sheetfile" value="Sensor_Pluja.kicad_sch"/>
@@ -1793,6 +1793,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="1393280-6">
+      <uri>D:/Biel/Documents/2 UNI/8 SEMESTRE/EINES DISSENY/PROJECTE/AA PROJECTE/Projecte_Neteja_Parabrises/Llibreries/Rele/1393280-6/1393280-6.kicad_sym</uri>
+    </library>
     <library logical="ABLS2-8.000MHZ-D4Y-T">
       <uri>/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Cristall/ABLS2-8.000MHZ-D4Y-T.kicad_sym</uri>
     </library>
@@ -1800,16 +1803,16 @@
       <uri>/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/BJT/BC817-25_RF.kicad_sym</uri>
     </library>
     <library logical="Comparator">
-      <uri>/usr/share/kicad/symbols//Comparator.kicad_sym</uri>
+      <uri>D:\Program Files\7.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+      <uri>D:\Program Files\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+      <uri>D:\Program Files\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+      <uri>D:\Program Files\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="L78S05CV">
       <uri>/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Regulador/L78S05CV.kicad_sym</uri>
@@ -1818,7 +1821,7 @@
       <uri>/usr/share/kicad/symbols//PIC18F258-I_SO.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+      <uri>D:\Program Files\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
     <library logical="TCAN1042DRQ1">
       <uri>/home/aidar/Documents/Projecte_Neteja_Parabrises/Llibreries/Transceiver/TCAN1042DRQ1.kicad_sym</uri>
