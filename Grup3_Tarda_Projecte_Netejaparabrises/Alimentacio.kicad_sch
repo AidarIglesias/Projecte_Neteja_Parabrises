@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projecte Netejaparabrises - Grup 4 Tarda")
-    (date "2023-04-20")
-    (rev "v1.3.20042023")
+    (date "2023-04-27")
+    (rev "v1.4.27042023")
   )
 
   (lib_symbols

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Projecte Netejaparabrises - Grup 4 Tarda")
-    (date "2023-04-20")
+    (date "2023-04-27")
     (rev "v1.3.20042023")
   )
 
@@ -593,7 +593,7 @@
     (property "Value" "CONEXIOSENSOR" (at 89.281 94.488 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" (at 88.9 99.06 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 88.9 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 99.06 0)
